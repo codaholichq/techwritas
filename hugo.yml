@@ -1,0 +1,118 @@
+baseURL: https://techwritas.com/
+languageCode: en-us
+title: TechWritas
+paginate: 5
+theme: ["PaperMod"]
+rssLimit: 25
+
+permalinks:
+  blog: /:slug/
+
+googleAnalytics:
+enableRobotsTXT: true
+enableEmoji: true
+sitemap:
+  changefreq: daily
+  priority: 0.5
+
+
+params:
+  env: production
+  title: TechWritas
+  author: Emmy Steven
+  images: ["img/feature-image.webp"]
+  description: TechWritas is a community created for those who want to 10x software engineers
+  keywords: [Community, Software Engineer, Developer, Coding, Programming]
+  SidebarRecentLimit: 5
+
+  showBreadCrumbs: false
+  showReadingTime: true
+  showShareButtons: true
+  showPostNavLinks: true
+  showFullTextinRSS: true
+  showCodeCopyButtons: true
+  disableSpecial1stPost: false
+  disableScrollToTop: false
+  comments: false
+  hidemeta: false
+  hideSummary: false
+  showtoc: false
+  tocopen: false
+  math: true
+
+  privacypolicy: /pages/privacy
+
+  label:
+    text: "TechWritas"
+    icon: "img/logo.webp"
+    iconHeight: 35
+
+  homeInfoParams:
+    Title: "Welcome! \U0001F44B"
+    Content: "Welcome to TechWritas, a thriving tech community dedicated to fueling your passion for technology.
+    You get to connect with like-minded professionals, exchange knowledge, and stay up-to-date with the latest trends and innovations.
+    Join us on this exciting journey of continuous learning and collaboration."
+  
+  socialIcons:
+    - name: "rss"
+      url: "https://techwritas.com/index.xml"
+    - name: X
+      url: https://x.com/techwritas
+    - name: youtube
+      url: http://youtube.com/@techwritas
+    - name: linkedin
+      url: https://www.linkedin.com/company/techwritas
+    - name: github
+      url: https://github.com/techwritas
+    - name: twitch
+      url: https://www.twitch.tv/techwritas
+    - name: dev
+      url: https://dev.to/techwritas
+    - name: instagram
+      url: https://instagram.com/techwritas
+    - name: medium
+      url: https://medium.com/techwritas
+
+  cover:
+    hidden: true
+    hiddenInList: true
+    hiddenInSingle: false
+    linkFullImages: true
+  
+menu:
+  main:
+    - identifier: blog
+      name: Blog
+      url: blog
+      weight: 1
+    - identifier: podcast
+      name: Podcast
+      url: podcast
+      weight: 2
+    - identifier: archives
+      name: Archives
+      url: archives
+      weight: 3
+
+disableKinds:
+  - taxonomy
+
+markup:
+  highlight:
+    anchorLineNos: false
+    codeFences: true
+    guessSyntax: false
+    hl_Lines: ""
+    hl_inline: false
+    lineAnchors: ""
+    lineNoStart: 1
+    lineNos: false
+    lineNumbersInTable: true
+    noClasses: true
+    noHl: false
+    style: monokai
+    tabWidth: 4
+  goldmark:
+    renderer:
+      hardWraps: true
+      unsafe: true
