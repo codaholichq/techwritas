@@ -79,6 +79,11 @@ params:
     hiddenInSingle: false
     linkFullImages: true
   
+  editPost:
+    URL: "https://github.com/codaholichq/techwritas/edit/main/content"
+    Text: " Suggest edit"
+    appendFilePath: true
+  
 menu:
   main:
     - identifier: blog
