@@ -57,22 +57,20 @@ params:
   socialIcons:
     - name: "rss"
       url: "https://techwritas.com/index.xml"
+    - name: medium
+      url: https://medium.com/techwritas
     - name: X
       url: https://x.com/techwritas
     - name: youtube
       url: http://youtube.com/@techwritas
     - name: linkedin
       url: https://www.linkedin.com/company/techwritas
-    - name: github
-      url: https://github.com/techwritas
-    - name: twitch
-      url: https://www.twitch.tv/techwritas
     - name: dev
       url: https://dev.to/techwritas
+    - name: telegram
+      url: https://t.me/techwritas
     - name: instagram
       url: https://instagram.com/techwritas
-    - name: medium
-      url: https://medium.com/techwritas
 
   cover:
     hidden: true
