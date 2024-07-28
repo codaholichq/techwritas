@@ -21,8 +21,8 @@ params:
   title: TechWritas
   author: Emmy Steven
   images: ["img/feature-image.webp"]
-  description: TechWritas is a community created for those who want to 10x software engineers
-  keywords: [Community, Software Engineer, Developer, Coding, Programming]
+  description: TechWritas is a community created for those who want to 10x tech writers
+  keywords: [Writing, copywriting, technical writing, tech writers, content strategy, content writing, technical writers]
   SidebarRecentLimit: 5
 
   showBreadCrumbs: false
@@ -49,7 +49,7 @@ params:
 
   homeInfoParams:
     Title: "Welcome! \U0001F44B"
-    Content: "Welcome to TechWritas, a thriving tech community dedicated to fueling your passion for technology.
+    Content: "Welcome to TechWritas, a thriving community dedicated to fueling your passion for tech writing.
     You get to connect with like-minded professionals, exchange knowledge, and stay up-to-date with the latest trends and innovations.
     Join us on this exciting journey of continuous learning and collaboration."
   
